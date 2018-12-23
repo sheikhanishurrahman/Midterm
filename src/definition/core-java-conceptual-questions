@@ -63,13 +63,14 @@ What is static keyword in java? How it has been used in variables and methods ?
 Answer:The static keyword belongs to the class than an instance of the class. The static
  can be: Variable, Method , Block; Nested class;.
 What is final and how it has been used variables and methods?
-Answer:
+Answer: If the varialbe is initialize as final no one can change the value
+or edit its value.
 What is final, finally and finalize?
 Answer: Final keyword we can use interms of veriables and methods. If a variable if final then it has to be
 initialize the variable. Once keyword finalis used then it meand no
 editing or changeing  in the main method.
 What is a constructor ?
-Answer:Constructor used to initialized object.
+Answer:Constructor use to initialized object.
 Can we have multiple constructors in a class?
 Answer: Yes.
 If we don't have a constructor declared, what is called during the object creation?
@@ -100,14 +101,17 @@ Answer: Codes written in complie time, after complie codes  run.
 What is heap?
 Answer: Heap is a part of memory where dynamically allocated memory resides.
 How java manage it's memory?
-Answer:
+Answer:Java, memory is allocated only to objects. There is no explicit allocation of memory,
+there is only the creation of new objects
 What is the difference between String, StringBuffer and StringBuilder?
 Answer: String is varible,
 What is Singleton class?
 Answer:A singleton is a class that allows only a single instance of itself to be
 created and gives access to that created instance
 What is Serialization and Deserialization?
-Answer:
+Answer: serializetion if a process of converting an object into sequence
+of byte. the reverse process of creating object from sequence of bytes
+is called deserialization.
 when to use transient variable in java?
 Answer:
 Difference between while and do..while loop?
@@ -117,7 +121,7 @@ Answer: Enum is predifined String data.
 What is Iterator?
 Answer: An object.
 Which one will take more memory, an int or Integer?
-Answer:
+Answer:Integer will take more memory.
 Why is String Immutable in Java?
 Answer:Strings are immutable.If they decided to make strings mutable
  then they would not have used a string pool
