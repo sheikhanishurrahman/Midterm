@@ -8,7 +8,10 @@ public class Pattern {
 		 *
 		 *
 		 */
-		
+		for (int j =100; j>0; j--) {
+			System.out.print(j);
+			System.out.print(",");
+		}
 
 
 	}
